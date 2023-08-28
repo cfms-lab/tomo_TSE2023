@@ -1,0 +1,68 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="Current" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CudaCompile Include="cuda_src\step3_generateBed.cu" />
+    <CudaCompile Include="cuda_src\step4_reducedSum.cu" />
+    <CudaCompile Include="cuda_src\step1_rotCVVoxel.cu" />
+    <CudaCompile Include="cuda_src\SlotData.cu" />
+    <CudaCompile Include="cuda_src\step2_slotPairing.cu" />
+    <CudaCompile Include="cuda_src\STomoNV_CUDA.cu" />
+    <CudaCompile Include="cuda_src\step1_voxelize.cu" />
+    <CudaCompile Include="cuda_src\atomicWrite.cu" />
+    <CudaCompile Include="cuda_src\CUDA_types.cu" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="cpu_src\SMatrix33f.cpp" />
+    <ClCompile Include="cpu_src\STomoNV_CvxH.cpp" />
+    <ClCompile Include="dllmain.cpp" />
+    <ClCompile Include="cpu_src\S3DPrinterInfo.cpp" />
+    <ClCompile Include="cpu_src\SMatrix4f.cpp" />
+    <ClCompile Include="cpu_src\STomoAABB2D.cpp" />
+    <ClCompile Include="cpu_src\STomoAABB3Df.cpp" />
+    <ClCompile Include="cpu_src\STomoNV_Base.cpp" />
+    <ClCompile Include="cpu_src\STomoNV_INT3.cpp" />
+    <ClCompile Include="cpu_src\STomoNV_TMPxl.cpp" />
+    <ClCompile Include="cpu_src\STomoPixel.cpp" />
+    <ClCompile Include="cpu_src\STomoTriangle.cpp" />
+    <ClCompile Include="cpu_src\STomoVolMassInfo.cpp" />
+    <ClCompile Include="cpu_src\STomoVoxel.cpp" />
+    <ClCompile Include="cpu_src\STomoVoxelSpaceInfo.cpp" />
+    <ClCompile Include="cpu_src\STPSlot.cpp" />
+    <ClCompile Include="cuda_src\SYPRInfo.cpp" />
+    <ClCompile Include="pch.cpp" />
+    <ClCompile Include="Tomo_TSE2023.cpp" />
+    <ClCompile Include="Tomo_types.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="cpu_src\SMatrix33f.h" />
+    <ClInclude Include="cpu_src\STomoNV_CvxH.h" />
+    <ClInclude Include="cuda_src\step3_generateBed.cuh" />
+    <ClInclude Include="cuda_src\step1_rotCVVoxel.cuh" />
+    <ClInclude Include="cuda_src\step2_slotPairing.cuh" />
+    <ClInclude Include="cuda_src\STomoNV_CUDA.cuh" />
+    <ClInclude Include="framework.h" />
+    <ClInclude Include="cuda_src\atomicWrite.cuh" />
+    <ClInclude Include="cuda_src\step4_reducedSum.cuh" />
+    <ClInclude Include="cpu_src\S3DPrinterInfo.h" />
+    <ClInclude Include="cpu_src\SMatrix4f.h" />
+    <ClInclude Include="cpu_src\STomoAABB2D.h" />
+    <ClInclude Include="cpu_src\STomoAABB3Df.h" />
+    <ClInclude Include="cpu_src\STomoNV_Base.h" />
+    <ClInclude Include="cpu_src\STomoNV_INT3.h" />
+    <ClInclude Include="cpu_src\STomoNV_TMPxl.h" />
+    <ClInclude Include="cpu_src\STomoPixel.h" />
+    <ClInclude Include="cpu_src\STomoTriangle.h" />
+    <ClInclude Include="cpu_src\STomoVolMassInfo.h" />
+    <ClInclude Include="cpu_src\STomoVoxel.h" />
+    <ClInclude Include="cpu_src\STomoVoxelSpaceInfo.h" />
+    <ClInclude Include="cpu_src\STPSlot.h" />
+    <ClInclude Include="cuda_src\SYPRInfo.h" />
+    <ClInclude Include="cuda_src\step1_voxelize.cuh" />
+    <ClInclude Include="cuda_src\CUDA_types.cuh" />
+    <ClInclude Include="pch.h" />
+    <ClInclude Include="cuda_src\SlotData.cuh" />
+    <ClInclude Include="STomoPixel.h" />
+    <ClInclude Include="Tomo_TSE2023.h" />
+    <ClInclude Include="Tomo_types.h" />
+  </ItemGroup>
+</Project>
