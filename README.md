@@ -10,6 +10,13 @@ support structure tomography, modified version submitted for Textile Science Eng
 ```
 pip install -r requirements.txt
 ```
+
+혹시 패키지 설치가 잘 안될 경우에는, requirements.txt안에 적힌 각 패키지를 하나씩 설치하세요.
+
+```
+pip install numpy==1.21.4
+```
+
 #####    (4) Install VC++ 2015, 2017, 2019, and 2022 Redistributable package
 ( https://learn.microsoft.com/en-us/cpp/windows/latest-supported-vc-redist?view=msvc-170 ).
 
