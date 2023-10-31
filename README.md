@@ -11,7 +11,8 @@ support structure tomography, modified version submitted for Textile Science Eng
 pip install -r requirements.txt
 ```
 
-혹시 패키지 설치가 잘 안될 경우에는, requirements.txt안에 적힌 각 패키지를 하나씩 설치하세요.
+혹시 패키지 설치가 잘 안될 경우에는, requirements.txt안에 적힌 각 패키지를 하나씩 설치하세요
+( ==1.2.14 와 같은 번호는 개발 당시에 사용한 버전입니다. 일단 적힌 버전 대로 설치하시고, 잘 안되면 최신 버전을 설치하세요).
 
 ```
 pip install numpy==1.21.4
